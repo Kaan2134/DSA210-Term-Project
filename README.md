@@ -17,6 +17,51 @@ The project will also test a broader hypothesis: *Can a balanced media strategy 
 
 ---
 
+## 🔍 Research Question & Hypotheses
+
+### **Research Question**  
+How do traditional and digital advertising expenditures shape sales outcomes, individually and in combination?
+
+---
+
+## **Hypotheses (Statistical Testing Format)**
+
+### **H1 — Traditional Media Effectiveness**
+
+**Null Hypothesis (H0):**  
+Traditional media spending (TV, Radio, Newspaper) has no significant effect on Sales.  
+*(β_TV = β_Radio = β_Newspaper = 0)*  
+
+**Alternative Hypothesis (H1):**  
+Traditional media spending has a significant effect on Sales, with varying strengths across channels.  
+*(At least one β ≠ 0; expected β_TV, β_Radio > 0 and β_Newspaper weaker or negative)*
+
+---
+
+### **H2 — Digital Media Contribution**
+
+**Null Hypothesis (H0):**  
+Digital_Spend and engagement metrics (CTR, Conversions) have no significant association with Sales.  
+*(β_Digital = β_CTR = β_Conv = 0)*  
+
+**Alternative Hypothesis (H1):**  
+Digital_Spend and engagement metrics are positively associated with Sales.  
+*(At least one β > 0)*
+
+---
+
+### **H3 — Cross-Channel Synergy**
+
+**Null Hypothesis (H0):**  
+Using traditional and digital advertising together does not generate higher sales than relying on a single channel.  
+*(Interaction term β_TV×Digital = 0)*  
+
+**Alternative Hypothesis (H1):**  
+The interaction between TV and Digital_Spend creates a synergistic effect, increasing Sales more than either channel alone.  
+*(β_TV×Digital > 0)*
+
+---
+
 ## 📚 Data Source  
 
 ### 🗂 Primary Dataset – Traditional Advertising Data  
